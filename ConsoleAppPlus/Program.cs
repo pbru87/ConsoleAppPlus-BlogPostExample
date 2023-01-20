@@ -2,8 +2,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
-using SuWPB.DotNetUtils.Extensions;
 using ConsoleAppPlus;
+using ConsoleAppPlus.Utils.Extensions;
 
 // Set up dependency injection
 using IHost host = CreateHostBuilder(args).Build();
